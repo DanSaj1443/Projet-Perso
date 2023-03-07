@@ -1,0 +1,85 @@
+@media(max-width:660px){
+    .un{
+        margin: 150px 60px 0 0 ; 
+    }
+    
+    .deux{
+        margin: 0;
+    }
+    
+    .trois{
+        margin: 0;
+    }
+
+    .quatre{
+        margin: 0;
+    }
+
+    .cinq{
+        margin: 0;
+    }
+
+    .bouton{
+
+        padding: 5px;
+    }
+}
+
+@media(max-width:440px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./droga\ z\ gw.png);
+        text-align: center;
+        background-size:cover;
+        justify-content: center;
+        background-position: center;
+        
+        
+    }
+
+    h1{
+        display: none;
+    }
+
+    .modal-content{
+        margin-top: 15px;
+        
+    }
+    
+    .debut-modal:target{
+        display: block;
+       opacity: 1;
+       width: fit-content;
+       transition: all 0.3 ease;
+    }
+
+    .un{
+        margin: 0;
+        padding: 10px;
+    
+    }
+    
+    .deux{
+        margin: 0;
+        padding: 50px;
+        align-self: center;
+       }
+    
+    .trois{
+        margin: 0;
+        padding: 50px;
+       
+    }
+
+    .quatre{
+        margin: 0;
+        padding: 50px;
+    }
+
+    .cinq{
+        margin: 0;
+        padding: 10px;
+    }
+      
+}
